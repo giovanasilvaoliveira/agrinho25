@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f0fbe8;
+}
+
+header {
+  background-image: url(img/marrom.png);
+  background-color: #eb8322;
+  color: rgba(46, 7, 7, 0.945);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.galeria-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria-container img {
+  width: 260px;
+  height: 30-0px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #910f0f;
+}
+
+form button {
+  background-color: #f38338;
+  color: rgb(121, 0, 0);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ec6d24;
+}
+
+footer {
+  background-color: #ec6810;
+  color: rgb(121, 0, 0);
+  text-align: center;
+  padding: 15px;
+}
+
+.botoes-acesso {
+  text-align: right;
+  margin: 20px;
+}
+
+.botoes-acesso button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #cc5a18;
+  color: rgb(121, 0, 0);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botoes-acesso button:hover {
+  background-color: #e97e1b;
+}

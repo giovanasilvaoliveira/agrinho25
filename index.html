@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Festival Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Festival Conexão Campo-Cidade</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="botoes-acesso">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="toggleGaleria()">Mostrar/Ocultar Galeria</button>
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre o Evento</h2>
+    <p>Um festival que celebra o encontro entre o campo e a cidade, valorizando saberes, sabores e culturas locais. O evento se detaca por aprsentar a importância da valorização da cultura, tradições rurais e sustentabilidade. O festival apresentará, diversas atividades, feiras, apresentações, debates, referentes a conexão de campo e cidade e muita união e alegria entre amigos e familiares.</p>
+  </section>
+
+  <section id="atividades">
+    <h2>Atividades</h2>
+    <ul>
+      <li>Feira de produtos orgânicos</li>
+      <li>Oficinas sustentáveis</li>
+      <li>Apresentações culturais</li>
+      <li>Debates sobre agricultura familiar</li>
+      <li>Sustentabilidade e tecnologia</li>
+      <li>Conexão entre campo e cidade</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria-container">
+      <img src="img/produtoorganico.png" alt="Imagem 1" title="Foto de blog.culte.com.br  - © Todos os direitos reservados">
+      <img src="img/fotomeio2.png" alt="Imagem 2" title="Foto de geografiaph.blogspot.com  - © Todos os direitos reservados">
+      <img src="img/pecuaria.png" alt="Imagem 3" title="Foto de diaonline.ig.com.br/ - © Todos os direitos reservados">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Festival Conexão Campo-Cidade. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
